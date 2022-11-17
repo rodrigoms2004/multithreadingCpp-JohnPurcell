@@ -16,3 +16,4 @@ https://github.com/caveofprogramming/Cpp-Multithreading
 
 The lock_guard uses RAII, in case of an exception or return it calls unlock automatically.
 
+## Section 03 - Returning Values from Threads
