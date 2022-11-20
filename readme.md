@@ -18,6 +18,8 @@ The lock_guard uses RAII, in case of an exception or return it calls unlock auto
 
 ## Section 03 - Returning Values from Threads
 
+Promises and future
+
 
 ## Section 04 - Signalling
 
@@ -52,3 +54,17 @@ private:
     size_t _max_size;
     queue<E> _queue;
 ```
+
+
+## Section 05 - Processing Work Efficiently
+
+https://en.cppreference.com/w/cpp/thread/async
+
+
+https://en.cppreference.com/w/cpp/thread/future
+
+
+https://en.cppreference.com/w/cpp/thread/shared_future
+
+
+Use shared_future for asynchronous operations
